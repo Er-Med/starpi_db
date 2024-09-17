@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_page_clients",
+  "info": {
+    "displayName": "Clients",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "clients": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::client.client"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

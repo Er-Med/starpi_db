@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_page_latest_news_and_blogs",
+  "info": {
+    "displayName": "LatestNews&Blogs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.main-title"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

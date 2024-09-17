@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_page_what_we_dos",
+  "info": {
+    "displayName": "whatWeDo"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.main-btn"
+    },
+    "title": {
+      "displayName": "MainTitle",
+      "type": "component",
+      "repeatable": false,
+      "component": "global.main-title"
+    }
+  }
+}

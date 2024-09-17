@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_page_hero_sections",
+  "info": {
+    "displayName": "HeroSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "top_title": {
+      "type": "string"
+    },
+    "middle_title": {
+      "type": "string"
+    },
+    "highlighted_title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.main-btn"
+    }
+  }
+}

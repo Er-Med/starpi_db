@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_global_engagement_sections",
+  "info": {
+    "displayName": "Engagement-Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.main-title"
+    },
+    "Advantage": {
+      "displayName": "Advantage",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.advantage"
+    }
+  }
+}

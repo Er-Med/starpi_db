@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_global_main_titles",
+  "info": {
+    "displayName": "MainTitle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "highlighted_title": {
+      "type": "string"
+    }
+  }
+}

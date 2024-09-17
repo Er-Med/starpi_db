@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_global_latest_blogs",
+  "info": {
+    "displayName": "latestBlog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blog": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog.blog"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

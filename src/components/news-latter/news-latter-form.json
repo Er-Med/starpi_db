@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_news_latter_news_latter_forms",
+  "info": {
+    "displayName": "NewsLatterForm"
+  },
+  "options": {},
+  "attributes": {
+    "placeholder": {
+      "type": "string"
+    },
+    "btn_text": {
+      "type": "string"
+    }
+  }
+}

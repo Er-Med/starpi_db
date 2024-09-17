@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_global_sous_services",
+  "info": {
+    "displayName": "sous_services"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

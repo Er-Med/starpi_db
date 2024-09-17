@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "location": {
+      "type": "string"
+    },
+    "NewsLatter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "news-latter.news-latter-form"
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-links.social-link"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "Pages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-links.footer-link"
+    }
+  }
+}

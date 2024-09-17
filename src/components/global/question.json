@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_global_questions",
+  "info": {
+    "displayName": "question"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

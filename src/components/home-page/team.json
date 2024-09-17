@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_page_teams",
+  "info": {
+    "displayName": "Team",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.main-title"
+    },
+    "team_members": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::team-member.team-member"
+    },
+    "btn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.main-btn"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_page_heroes",
+  "info": {
+    "displayName": "pageHero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.main-btn"
+    }
+  }
+}

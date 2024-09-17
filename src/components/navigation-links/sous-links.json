@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_navigation_links_sous_links",
+  "info": {
+    "displayName": "sousLinks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sub_subServices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  }
+}

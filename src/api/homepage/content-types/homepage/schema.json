@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroSection": {
+      "displayName": "HeroSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.hero-section"
+    },
+    "whatWeDoSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.what-we-do"
+    },
+    "ClientsSection": {
+      "displayName": "Clients",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.clients"
+    },
+    "ServicesSection": {
+      "displayName": "services",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.services"
+    },
+    "Testimonials": {
+      "displayName": "testimonials",
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.testimonials"
+    },
+    "LatestBlogs": {
+      "displayName": "LatestNews&Blogs",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.latest-news-and-blogs"
+    },
+    "Team": {
+      "displayName": "Team",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.team"
+    }
+  }
+}
