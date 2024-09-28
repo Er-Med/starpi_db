@@ -186,17 +186,6 @@ export interface HomePageClients extends Schema.Component {
   };
 }
 
-export interface FooterLinksFooterLink extends Schema.Component {
-  collectionName: 'components_footer_links_footer_links';
-  info: {
-    displayName: 'FooterLink';
-  };
-  attributes: {
-    label: Attribute.String;
-    url: Attribute.String;
-  };
-}
-
 export interface GlobalSousServices extends Schema.Component {
   collectionName: 'components_global_sous_services';
   info: {
@@ -348,6 +337,17 @@ export interface GlobalAdvantage extends Schema.Component {
   };
 }
 
+export interface FooterLinksFooterLink extends Schema.Component {
+  collectionName: 'components_footer_links_footer_links';
+  info: {
+    displayName: 'FooterLink';
+  };
+  attributes: {
+    label: Attribute.String;
+    url: Attribute.String;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
@@ -363,7 +363,6 @@ declare module '@strapi/types' {
       'home-page.latest-news-and-blogs': HomePageLatestNewsAndBlogs;
       'home-page.hero-section': HomePageHeroSection;
       'home-page.clients': HomePageClients;
-      'footer-links.footer-link': FooterLinksFooterLink;
       'global.sous-services': GlobalSousServices;
       'global.simple-section': GlobalSimpleSection;
       'global.question': GlobalQuestion;
@@ -376,6 +375,7 @@ declare module '@strapi/types' {
       'global.categories': GlobalCategories;
       'global.blogs-sectino': GlobalBlogsSectino;
       'global.advantage': GlobalAdvantage;
+      'footer-links.footer-link': FooterLinksFooterLink;
     }
   }
 }
